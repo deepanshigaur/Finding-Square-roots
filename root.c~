@@ -41,7 +41,7 @@ float root(float a) {
 	float x_next =  x - ((x*x)-a)/(2*x);
 		while (!floatEqual(a,x*x))
 		{
-			if (floatEqual(x,x_next))
+			if (floatEqual(x,x_next)
 			{
 				break;
 			}	
